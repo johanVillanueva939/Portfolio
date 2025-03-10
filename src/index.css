@@ -16,7 +16,7 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;   
 }
 body, #roots{
     height: 100vh;
@@ -122,10 +122,19 @@ body, #roots{
 }
 /* About ME */
 #AboutMe{
-  padding: 40px 0 0 0 ;
+  padding: 100px 0 0 0 ;
 }
 #Part1AboutMe{
   border-left: solid 7px var(--color-400);
   border-radius: 7px;
   padding: 10px;
+}
+/* Tech */
+#techSect{
+  padding: 80px 0 0 0;
+}
+#Tech3{
+  border-top: 5px solid var(--color-400);
+  border-radius: 5px 5px 0 0;
+  padding: 7.5px 0 7.5px 0;
 }
