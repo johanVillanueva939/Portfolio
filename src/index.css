@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root{
+  --color-50:oklch(0.9691 0.0017 145.56);
+  --color-100:oklch(0.9281 0.007 124.45);
+  --color-200:oklch(0.8553 0.0117 128.61);
+  --color-300:oklch(0.7503 0.0204 133.13);
+  --color-400:oklch(0.6224 0.0294 133.12);
+  --color-500:oklch(0.5215 0.0332 135.74);
+  --color-600:oklch(0.4374 0.0312 136.49);
+  --color-700:oklch(0.3745 0.0233 137.88);
+  --color-800:oklch(0.3271 0.0183 138.74);
+  --color-900:oklch(0.2925 0.0165 137.86);
+  --color-950:oklch(0.2086 0.009 137.84);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, #roots{
+    height: 100vh;
+    background-color: #0E0E11;
+}
+/* -------Background------- */
+.bg-custom-50{
+  background-color: var(--color-50);
+}
+.bg-custom-100{
+  background-color: var(--color-100);
+}
+.bg-custom-200{
+  background-color: var(--color-200);
+}
+.bg-custom-300{
+  background-color: var(--color-300);
+}
+.bg-custom-400{
+  background-color: var(--color-400);
+}
+.bg-custom-500{
+  background-color: var(--color-500);
+}
+.bg-custom-600{
+  background-color: var(--color-600);
+}
+.bg-custom-700{
+  background-color: var(--color-700);
+}
+.bg-custom-800{
+  background-color: var(--color-800);
+}
+.bg-custom-900{
+  background-color: var(--color-900);
+}
+.bg-custom-950{
+  background-color: var(--color-950);
+}
+
+/* -------Color text------- */
+.text-custom-50{
+  color: var(--color-50);
+}
+.text-custom-100{
+  color: var(--color-100);
+}
+.text-custom-200{
+  color: var(--color-200);
+}
+.text-custom-300{
+  color: var(--color-300);
+}
+.text-custom-400{
+  color: var(--color-400);
+}
+.text-custom-500{
+  color: var(--color-500);
+}
+.text-custom-600{
+  color: var(--color-600);
+}
+.text-custom-700{
+  color: var(--color-700);
+}
+.text-custom-800{
+  color: var(--color-800);
+}
+.text-custom-900{
+  color: var(--color-900);
+}
+.text-custom-950{
+  color: var(--color-950);
+}
+
+/* Clip-path */
+.clip-path-custom{
+  line-height: 50px;
+  border-top:solid 50px transparent;
+  border-left: solid 50px var(--color-600);
+  border-bottom: solid 50px transparent;
+}
+#gitHub_icon, #linkEdin_icon{
+  font-size: 30px;
+}
+#gitHub_icon:hover, #linkEdin_icon:hover{
+  color: var(--color-200);
+  transition: .2s;
+}
+#gitHub_icon:active, #linkEdin_icon:active{
+  color: var(--color-300);
+}
+#header{
+  background: radial-gradient(circle, var(--color-500), var(--color-600), var(--color-700));
+  text-shadow: 0px 0px 2px var(--color-700);
+}
+#header > a:hover{
+  color: var(--color-200);
+  transition: .2s;
+}
+#header > a:active{
+  color: var(--color-300);
+}
+/* About ME */
+#AboutMe{
+  padding: 40px 0 0 0 ;
+}
+#Part1AboutMe{
+  border-left: solid 7px var(--color-400);
+  border-radius: 7px;
+  padding: 10px;
+}
