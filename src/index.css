@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root{
+  /* Color normal */
   --color-50:oklch(0.9691 0.0017 145.56);
   --color-100:oklch(0.9281 0.007 124.45);
   --color-200:oklch(0.8553 0.0117 128.61);
@@ -12,6 +13,18 @@
   --color-800:oklch(0.3271 0.0183 138.74);
   --color-900:oklch(0.2925 0.0165 137.86);
   --color-950:oklch(0.2086 0.009 137.84);
+  /* Color transparent */
+  --color-50-t: oklch(0.9691 0.0017 145.56 / 0.85);
+  --color-100-t: oklch(0.9281 0.007 124.45 / 0.85);
+  --color-200-t: oklch(0.8553 0.0117 128.61 / 0.85);
+  --color-300-t: oklch(0.7503 0.0204 133.13 / 0.85);
+  --color-400-t: oklch(0.6224 0.0294 133.12 / 0.85);
+  --color-500-t: oklch(0.5215 0.0332 135.74 / 0.85);
+  --color-600-t: oklch(0.4374 0.0312 136.49 / 0.85);
+  --color-700-t: oklch(0.3745 0.0233 137.88 / 0.85);
+  --color-800-t: oklch(0.3271 0.0183 138.74 / 0.85);
+  --color-900-t: oklch(0.2925 0.0165 137.86 / 0.85);
+  --color-950-t: oklch(0.2086 0.009 137.84 / 0.85);
 }
 *{
   padding: 0;
@@ -110,8 +123,10 @@ body, #roots{
   color: var(--color-300);
 }
 #header{
-  background: radial-gradient(circle, var(--color-500), var(--color-600), var(--color-700));
+  background: radial-gradient(circle, var(--color-500-t), var(--color-600-t), var(--color-700-t));
   text-shadow: 0px 0px 2px var(--color-700);
+  -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 #header > a:hover{
   color: var(--color-200);
@@ -137,4 +152,13 @@ body, #roots{
   border-top: 5px solid var(--color-400);
   border-radius: 5px 5px 0 0;
   padding: 7.5px 0 7.5px 0;
+}
+/* Social Skills */
+#Skill{
+  border-left: 5px solid var(--color-400);
+  border-right: 5px solid var(--color-400);
+  border-radius: 5px;
+}
+#Skills{
+  padding: 80px 0 0 0;
 }

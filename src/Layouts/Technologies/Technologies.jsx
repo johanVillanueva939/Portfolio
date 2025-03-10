@@ -1,6 +1,6 @@
-import Tech from "../UI/Tech/Tech"
-import TechTitle from "../UI/Tech/TechTitle";
-import Titles from "../UI/Titles";
+import Tech from "../../UI/Tech/Tech"
+import TechTitle from "../../UI/Tech/TechTitle";
+import Titles from "../../UI/Titles";
 
 const cardStyle = {
     display: 'grid',
