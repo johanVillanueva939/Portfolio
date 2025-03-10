@@ -18,9 +18,9 @@ const cardStyle = {
 
 export const Technologies = () => {
     return (
-        <div id="techSect" className="flex flex-col items-star justify-center w-fit justify-self-center gap-4">
+        <div id="techSect" className="flex flex-col items-start justify-center w-fit justify-self-center gap-4">
             <Titles title='Habilidades Técnicas' />
-            <section className="flex flex-row justify-center items-center flex-wrap gap-20 w-fit justify-self-center">
+            <section className="flex flex-row justify-center items-center flex-wrap gap-10 md:gap-20 w-fit justify-self-center">
                 <div className="flex flex-col">
                     <TechTitle texth3='Lenguajes' />
                     <div style={cardStyle}>

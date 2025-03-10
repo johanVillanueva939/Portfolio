@@ -9,7 +9,7 @@ export const AboutMe = () => {
     return (
         <section id='AboutMe' className='flex flex-col items-start justify-center w-fit justify-self-center gap-4'>
             <Titles title='Sobre mí' />
-        <div className='flex flex-row gap-4 items-center justify-center mt-[100px]'>
+        <div className='flex flex-col md:flex-row gap-4 items-center justify-center md:mt-[100px]'>
             <div id='Part1AboutMe' className='flex flex-col gap-4 bg-custom-950'>
                 <Paragraph />
                 <EnglishLevel />
@@ -19,7 +19,7 @@ export const AboutMe = () => {
                     <MyName />
                 </div>
                 <div>
-                    <img src={imga} />
+                    <img src={imga} className='w-[100px] md:w-[150px]' />
                 </div>
                 <div>
                     <Role />
