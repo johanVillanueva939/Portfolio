@@ -3,22 +3,22 @@ import Titles from "../../UI/Titles"
 
 export const SocialSkills = () => {
     return (
-        <section id="Skills" className="flex flex-col justify-center w-[600px] md:w-[820px] gap-4 justify-self-center">
-            <Titles title='Social Skills' />
+        <section id="Skills" className="flex flex-col justify-center items-center w-fit gap-4 justify-self-center">
+            <Titles titulo='Habilidades Sociales' />
             <div className="flex flex-wrap gap-2 md:gap-4 items-center justify-center">
-                <Skill skill='Communication' />
-                <Skill skill='Teamwork' />
-                <Skill skill='Empathy' />
-                <Skill skill='Adaptability' />
-                <Skill skill='Organization' />
-                <Skill skill='Problem Solving' />
-                <Skill skill='Patience' />
-                <Skill skill='Decision Making' />
-                <Skill skill='Learning Ability' />
-                <Skill skill='Listening Skills' />
-                <Skill skill='Analytical Skills' />
-                <Skill skill='Planning Skills' />
-                <Skill skill='Organizational Skills' />
+                <Skill habilidad='Comunicación' />
+                <Skill habilidad='Trabajo en equipo' />
+                <Skill habilidad='Empatía' />
+                <Skill habilidad='Adaptabilidad' />
+                <Skill habilidad='Organización' />
+                <Skill habilidad='Resolución de problemas' />
+                <Skill habilidad='Paciencia' />
+                <Skill habilidad='Toma de decisiones' />
+                <Skill habilidad='Capacidad de aprendizaje' />
+                <Skill habilidad='Habilidades de escucha' />
+                <Skill habilidad='Habilidades analíticas' />
+                <Skill habilidad='Habilidades de planificación' />
+                <Skill habilidad='Habilidades organizativas' />
             </div>
         </section>
     )

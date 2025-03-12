@@ -18,32 +18,32 @@ const cardStyle = {
 
 export const Technologies = () => {
     return (
-        <div id="techSect" className="flex flex-col items-start justify-center w-fit justify-self-center gap-4">
-            <Titles title='Habilidades Técnicas' />
+        <div id="techSect" className="flex flex-col items-center justify-center w-fit justify-self-center gap-4">
+            <Titles titulo='Habilidades Técnicas' />
             <section className="flex flex-row justify-center items-center flex-wrap gap-10 md:gap-20 w-fit justify-self-center">
                 <div className="flex flex-col">
-                    <TechTitle texth3='Lenguajes' />
+                    <TechTitle textoH3='Lenguajes' />
                     <div style={cardStyle}>
-                        <Tech image='https://cdn-icons-png.flaticon.com/512/732/732212.png' text='HTML5' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/512/732/732190.png' text='CSS3' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/128/5968/5968292.png' text='JavaScript' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/512/6132/6132221.png' text='C#' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/512/732/732212.png' texto='HTML5' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/512/732/732190.png' texto='CSS3' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/128/5968/5968292.png' texto='JavaScript' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/512/6132/6132221.png' texto='C#' />
                     </div>
                 </div>
                 <div className="flex flex-col">
-                    <TechTitle texth3='Frameworks & tools' />
+                    <TechTitle textoH3='Frameworks & herramientas' />
                     <div style={cardStyle}>
-                        <Tech image='../../src/assets/Images/react.svg' text='React' />
-                        <Tech image='https://www.svgrepo.com/show/374118/tailwind.svg' text='Tailwind' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/512/733/733553.png' text='GitHub' />
+                        <Tech imagen='../../src/assets/Images/react.svg' texto='React' />
+                        <Tech imagen='https://www.svgrepo.com/show/374118/tailwind.svg' texto='Tailwind' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/512/733/733553.png' texto='GitHub' />
                     </div>
                 </div>
                 <div className="flex flex-col">
-                    <TechTitle texth3='Software' />
+                    <TechTitle textoH3='Software' />
                     <div style={cardStyle}>
-                        <Tech image='https://logospng.org/download/visual-studio-code/visual-studio-code-256.png' text='VS Code' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/128/15713/15713436.png' text='Visual Studio' />
-                        <Tech image='https://cdn-icons-png.flaticon.com/512/919/919836.png' text='MySQL' />
+                        <Tech imagen='https://logospng.org/download/visual-studio-code/visual-studio-code-256.png' texto='VS Code' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/128/15713/15713436.png' texto='Visual Studio' />
+                        <Tech imagen='https://cdn-icons-png.flaticon.com/512/919/919836.png' texto='MySQL' />
                     </div>
                 </div>
             </section>

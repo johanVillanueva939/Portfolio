@@ -22,4 +22,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: 'https://johanVillanueva939.github.io/Portfolio',
 })

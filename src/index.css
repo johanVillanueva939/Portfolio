@@ -2,29 +2,29 @@
 
 :root{
   /* Color normal */
-  --color-50: #f5f6f5;
-  --color-100: #e6e7e6;
-  --color-200: #d0d1d0;
-  --color-300: #aeb2af;
-  --color-400: #868a86;
-  --color-500: #737874;
-  --color-600: #5b5f5c;
-  --color-700: #4e504e;
-  --color-800: #444644;
-  --color-900: #3c3d3c;
-  --color-950: #252726;
+  --color-50: #f7f7f7;
+  --color-100: #f0f0f0;
+  --color-200: #e3e3e3;
+  --color-300: #d1d1d1;
+  --color-400: #bdbdbd;
+  --color-500: #aaaaaa;
+  --color-600: #969696;
+  --color-700: #818181;
+  --color-800: #6a6a6a;
+  --color-900: #585858;
+  --color-950: #333333;
   /* Color transparent */
-  --color-50-t: #f5f6f5d9;
-  --color-100-t: #e6e7e6d9;
-  --color-200-t: #d0d1d0d9;
-  --color-300-t: #aeb2afd9;
-  --color-400-t: #868a86d9;
-  --color-500-t: #737874d9;
-  --color-600-t: #5b5f5cd9;
-  --color-700-t: #4e504ed9;
-  --color-800-t: #444644d9;
-  --color-900-t: #3c3d3cd9;
-  --color-950-t: #252726d9;
+  --color-50-t: rgba(247, 247, 247, 0.5);
+  --color-100-t: rgba(240, 240, 240, 0.5);
+  --color-200-t: rgba(227, 227, 227, 0.5);
+  --color-300-t: rgba(209, 209, 209, 0.5);
+  --color-400-t: rgba(189, 189, 189, 0.5);
+  --color-500-t: rgba(170, 170, 170, 0.5);
+  --color-600-t: rgba(150, 150, 150, 0.5);
+  --color-700-t: rgba(129, 129, 129, 0.5);
+  --color-800-t: rgba(106, 106, 106, 0.5);
+  --color-900-t: rgba(88, 88, 88, 0.5);
+  --color-950-t: rgba(51, 51, 51, 0.5);
 }
 *{
   padding: 0;
@@ -107,20 +107,20 @@ body, #roots{
 
 /* Clip-path */
 .clip-path-custom{
-  line-height: 50px;
-  border-top:solid 50px transparent;
-  border-left: solid 50px var(--color-600);
-  border-bottom: solid 50px transparent;
+  border-left:solid 40px transparent;
+  border-bottom: solid 35px var(--color-50);
+  border-right: solid 40px transparent;
+  transform: translateX(-50%);
 }
-#gitHub_icon, #linkEdin_icon{
+#gitHub_icon, #linkEdin_icon, #WhatsApp_icon{
   font-size: 30px;
 }
 #gitHub_icon:hover, #linkEdin_icon:hover{
-  color: var(--color-200);
+  color: var(--color-400);
   transition: .2s;
 }
 #gitHub_icon:active, #linkEdin_icon:active{
-  color: var(--color-300);
+  color: var(--color-600);
 }
 #header{
   background: radial-gradient(circle, var(--color-500-t), var(--color-600-t), var(--color-700-t));
@@ -135,9 +135,18 @@ body, #roots{
 #header > a:active{
   color: var(--color-300);
 }
+#menuHamburguer {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  transition: .2s;
+}
 /* About ME */
 #AboutMe{
-  padding: 100px 0 0 0 ;
+  padding: 50px 5% 0 5% ;
+}
+#techSect, #Skills, #Experience{
+  padding: 100px 5% 0 5% ;
 }
 #Part1AboutMe{
   border-left: solid 7px var(--color-400);
@@ -145,9 +154,6 @@ body, #roots{
   padding: 10px;
 }
 /* Tech */
-#techSect{
-  padding: 80px 0 0 0;
-}
 #Tech3{
   border-top: 5px solid var(--color-400);
   border-radius: 5px 5px 0 0;
@@ -159,6 +165,25 @@ body, #roots{
   border-right: 5px solid var(--color-400);
   border-radius: 5px;
 }
-#Skills{
-  padding: 80px 0 0 0;
+/* Experience */
+#XP{
+  border-left: 5px solid var(--color-400);
+  border-radius: 5px;
+  padding: 10px;
+}
+#cert{
+  border-top: 5px solid var(--color-400);
+  border-radius: 5px;
+  padding: 10px;
+}
+#certi{
+  padding: 100px 5% 50px 5%;
+}
+@media screen and (max-width: 530px) {
+  #header{
+    display: none;
+  }
+  #menuHamburguer{
+    display: block;
+  }
 }

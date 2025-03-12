@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Nav = ({links, children}) => {
+export const Nav = ({enlaces, children}) => {
     return (
         <>
-            <a href={links}>{children}</a>
+            <a href={enlaces} target="_blank" rel="noopener noreferrer">{children}</a>
         </>
     )
 }
