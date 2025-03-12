@@ -1,6 +1,5 @@
-import { Children } from "react";
-import Certifi from "../UI/Certificates/Certifi";
-import Titles from "../UI/Titles";
+import Certifi from "../../UI/Certificates/Certifi";
+import Titles from "../../UI/Titles";
 
 export const Certificatess = () => {
     return (

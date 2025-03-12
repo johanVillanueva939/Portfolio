@@ -15,7 +15,7 @@ export const Header = () => {
     return (
         <>
             <div id="header" className="sticky top-0 flex flex-wrap justify-center gap-[20px] md:gap-[70px] h-[50px] rounded-b-[3px] items-center font-bold text-custom-950 hover:text-custom-50 ">
-                <Nav enlaces=''>Sobre mí</Nav>
+                <Nav enlaces='#../About_me/AboutMe'>Sobre mí</Nav>
                 <Nav enlaces=''>Habilidades Técnicas</Nav>
                 <Nav enlaces=''>Habilidades Sociales</Nav>
                 <Nav enlaces=''>Certificados</Nav>
