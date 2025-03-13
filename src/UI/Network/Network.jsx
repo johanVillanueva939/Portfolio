@@ -12,7 +12,7 @@ export const Network = () => {
             <Nav enlaces='https://www.linkedin.com/in/johan-david-villanueva-gallego-565ba9354/'>
                 <LinkedInIcon id='linkEdin_icon' />
             </Nav>
-            <Nav enlaces='https://api.whatsapp.com/send?phone=573103872727'>
+            <Nav enlaces='https://api.whatsapp.com/send?phone=573103872727&text=Hola,%20Johan%20David%20Villanueva%20Gallego'>
                 <WhatsAppIcon id='WhatsApp_icon' />
             </Nav>
         </div>

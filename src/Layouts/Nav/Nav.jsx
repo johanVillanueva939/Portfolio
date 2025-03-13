@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-export const Nav = ({enlaces, children}) => {
+export const Nav = ({ route, style, children }) => {
     return (
         <>
-            <a href={enlaces} target="_blank" rel="noopener noreferrer">{children}</a>
+            <NavLink className={style} to={route}>{children}</NavLink>
         </>
     )
 }

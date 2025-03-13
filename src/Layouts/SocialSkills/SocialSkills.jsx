@@ -3,7 +3,7 @@ import Titles from "../../UI/Titles"
 
 export const SocialSkills = () => {
     return (
-        <section id="Skills" className="flex flex-col justify-center items-center w-fit gap-4 justify-self-center">
+        <section id="Skills" className="flex flex-col justify-center items-center max-w-[820px] gap-4 justify-self-center">
             <Titles titulo='Habilidades Sociales' />
             <div className="flex flex-wrap gap-2 md:gap-4 items-center justify-center">
                 <Skill habilidad='Comunicación' />

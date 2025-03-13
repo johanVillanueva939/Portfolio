@@ -115,11 +115,11 @@ body, #roots{
 #gitHub_icon, #linkEdin_icon, #WhatsApp_icon{
   font-size: 30px;
 }
-#gitHub_icon:hover, #linkEdin_icon:hover{
+#gitHub_icon:hover, #linkEdin_icon:hover, #WhatsApp_icon:hover{
   color: var(--color-400);
   transition: .2s;
 }
-#gitHub_icon:active, #linkEdin_icon:active{
+#gitHub_icon:active, #linkEdin_icon:active, #WhatsApp_icon:active{
   color: var(--color-600);
 }
 #header{
@@ -127,6 +127,7 @@ body, #roots{
   text-shadow: 0px 0px 2px var(--color-700);
   -webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
+  padding: 20px 0;
 }
 #header > a:hover{
   color: var(--color-200);
