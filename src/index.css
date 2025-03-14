@@ -149,10 +149,10 @@ body, #roots{
 }
 /* About ME */
 #AboutMe{
-  padding: 50px 5% 0 5% ;
+  padding: 50px 5%;
 }
 #techSect, #Skills, #Experience{
-  padding: 100px 5% 0 5% ;
+  padding: 50px 5% ;
 }
 #Part1AboutMe{
   border-left: solid 7px var(--color-400);
@@ -196,7 +196,7 @@ body, #roots{
   transition: .3s;
 }
 #certi{
-  padding: 100px 5% 50px 5%;
+  padding: 100px 5% ;
 }
 @media screen and (max-width: 530px) {
   #header{
