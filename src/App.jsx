@@ -14,10 +14,10 @@ export const App = () => {
       <Networks />
       <Routes>
         <Route path="/Portfolio" element={<AboutMe />} />
-        <Route path="/Technologies" element={<Technologies />} />
-        <Route path="/SocialSkills" element={<SocialSkills />} />
-        <Route path="/Experience" element={<Experience />} />
-        <Route path="/Certificates" element={<Certificatess />} />
+        <Route path="/Portfolio/Technologies" element={<Technologies />} />
+        <Route path="/Portfolio/SocialSkills" element={<SocialSkills />} />
+        <Route path="/Portfolio/Experience" element={<Experience />} />
+        <Route path="/Portfolio/Certificates" element={<Certificatess />} />
       </Routes>
     </>
   )
