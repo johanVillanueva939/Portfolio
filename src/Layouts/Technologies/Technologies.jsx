@@ -33,7 +33,7 @@ export const Technologies = () => {
                 <div className="flex flex-col">
                     <TechTitle textoH3='Frameworks & Tools' />
                     <div style={cardStyle}>
-                        <Tech imagen='src/assets/Images/logo_dark.svg' texto='React' />
+                        <Tech imagen='https://www.pinclipart.com/picdir/big/135-1358798_react-js-logo-png-clipart.png' texto='React' />
                         <Tech imagen='https://www.svgrepo.com/show/374118/tailwind.svg' texto='Tailwind' />
                         <Tech imagen='https://cdn-icons-png.flaticon.com/512/733/733553.png' texto='GitHub' />
                     </div>
