@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const Nav = ({ route, style, children }) => {
+export const Nav = ({ route, children }) => {
     return (
         <>
-            <NavLink className={style} to={route}>{children}</NavLink>
+            <NavLink to={route} href={route}>{children}</NavLink>
         </>
     )
 }

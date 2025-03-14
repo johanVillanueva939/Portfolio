@@ -13,6 +13,9 @@ export const Certificatess = () => {
                 <Certifi route={'https://drive.google.com/file/d/1tC7a4L--DGIKnCVwBi_xE1O6IhNF-Gfl/view?usp=sharing'} titleCert={'TÉCNICO EN'} children={'PROGRAMACION DE SOFTWARE'} />
                 <Certifi route={'https://drive.google.com/file/d/1ENZ47UQQK76YFyEcnZK7RdCLByvy8KBw/view?usp=sharing'} titleCert={'TÉCNICO EN'} children={'PROGRAMACION DE SOFTWARE'} />
                 <Certifi route={'https://drive.google.com/file/d/1w0xLjabxduz9zBdTPRdxH2vS04iBc031/view?usp=sharing'} titleCert={'TÉCNICO EN'} children={'PROGRAMACION DE SOFTWARE'} />
+                <Certifi route={'https://drive.google.com/file/d/1CS6Ph5dmtzSoi4Um5DouHlP4IbpP-oNm/view?usp=sharing'} titleCert={'Certificado PixStudio'} children={'certificadoIntermedioRPA'} />
+                <Certifi route={'https://drive.google.com/file/d/1X_QErSo3ajomatpa7YgaHaLb_lEy87aJ/view?usp=sharing'} titleCert={'Certificado PixStudio'} children={'certificadoBasicoRPA'} />
+                <Certifi route={'https://drive.google.com/file/d/1Wm_bZ5xq8ZAHcf-pmA073nIf7kPTC1hE/view?usp=sharing'} titleCert={'Certificado PixStudio'} children={'pixMasterIntro'} />
             </div>
         </section>
         </>

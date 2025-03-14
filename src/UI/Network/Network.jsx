@@ -6,15 +6,15 @@ import Nav from '../../Layouts/Nav/Nav';
 export const Network = () => {
     return (
         <div className='fixed top-[4px] flex flex-row items-center text-custom-950'>
-            <Nav enlaces='https://github.com/johanVillanueva939'>
+            <a href='https://github.com/johanVillanueva939' target='_blank' rel='noopener noreferrer'>
                 <GitHubIcon id='gitHub_icon' />
-            </Nav>
-            <Nav enlaces='https://www.linkedin.com/in/johan-david-villanueva-gallego-565ba9354/'>
+            </a>
+            <a href='https://www.linkedin.com/in/johan-david-villanueva-gallego-565ba9354/' target='_blank' rel='noopener noreferrer'>
                 <LinkedInIcon id='linkEdin_icon' />
-            </Nav>
-            <Nav enlaces='https://api.whatsapp.com/send?phone=573103872727&text=Hola,%20Johan%20David%20Villanueva%20Gallego'>
+            </a>
+            <a href='https://api.whatsapp.com/send?phone=573103872727&text=Hola,%20Johan%20David%20Villanueva%20Gallego.%20FrontEnd%20Developer' target='_blank' rel='noopener noreferrer'>
                 <WhatsAppIcon id='WhatsApp_icon' />
-            </Nav>
+            </a>
         </div>
     )
 }

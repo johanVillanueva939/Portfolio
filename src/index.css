@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+::selection{
+  background-color: var(--color-900);
+  color: var(--color-50);
+}
+
 :root{
   /* Color normal */
   --color-50: #f7f7f7;
@@ -160,6 +165,13 @@ body, #roots{
   border-radius: 5px 5px 0 0;
   padding: 7.5px 0 7.5px 0;
 }
+#imgTech{
+  transition: .3s;
+}
+#imgTech:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 5px #0E0E11);
+}
 /* Social Skills */
 #Skill{
   border-left: 5px solid var(--color-400);
@@ -176,6 +188,12 @@ body, #roots{
   border-top: 5px solid var(--color-400);
   border-radius: 5px;
   padding: 10px;
+}
+#cert:hover{
+  border-top: 5px solid var(--color-900);
+  background-color: var(--color-600);
+  color: var(--color-950);
+  transition: .3s;
 }
 #certi{
   padding: 100px 5% 50px 5%;
